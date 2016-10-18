@@ -1,4 +1,4 @@
-package java8.account;
+package java8.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,10 +7,15 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+import java8.account.*;
+
 public class BankUtil {
 
     public static List<Account> getAccounts() {
-        List<Account> accounts = Arrays.asList(new SavingsAccount("A", 2000, 500, Gender.FEMALE), new CheckingAccount("B", 4000, 5000, Gender.MALE), new SavingsAccount("C", 3000, 500, Gender.MALE), new CheckingAccount("D", 5000, 5000, Gender.FEMALE));
+        List<Account> accounts = Arrays.asList(new SavingsAccount("A", 2000, 500, Gender.FEMALE),
+                new CheckingAccount("B", 4000, 5000, Gender.MALE),
+                new SavingsAccount("C", 3000, 500, Gender.MALE),
+                new CheckingAccount("D", 5000, 5000, Gender.FEMALE));
         return accounts;
     }
 
