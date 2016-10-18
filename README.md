@@ -1,3 +1,4 @@
+
 # Java 8 Learning With Examples
 
 This repo contains working examples to understand Java 8 New features. For detailed explanation please visit my blog http://www.rathakm.com
@@ -12,3 +13,4 @@ Examples added:
 How to run:
 ----------
 This project was created by IntelliJ. You can import and run all the examples using <i>mvn test</i> or you can run the individual tests from test/java package. 
+
