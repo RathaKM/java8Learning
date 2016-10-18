@@ -11,4 +11,4 @@ Examples added:
 
 How to run:
 ----------
-This project was created by IntelliJ. You can import and run all the examples using <i>mvn test</i> or you can run the individual tests from test/java package. 
+This project was created by using IntelliJ. You can import and run all the examples using <i>mvn test</i> or you can run the individual tests from test/java package. 
